@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+	name = <name>
+	email = <email>
+[push]
+	default = simple
+[alias]
+	co = checkout
+	cob = checkout -b
+	br = branch
+	st = status -sbu
+	ci = commit
+	lg = log --graph --pretty=format:'%C(cyan)%an %Cred%h %C(yellow)(%cr)%Cgreen%d%n%s%n'
+	lgo = log --graph --oneline
